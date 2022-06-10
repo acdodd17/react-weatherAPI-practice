@@ -5,7 +5,7 @@ function Homepage() {
     return (
         <div className='homepage'>
             <header className='app-header text-center'>
-                <h1>Open Source Weather Forecast</h1>
+                <h1>Weather Forecast</h1>
             </header>
             <section className='city-search text-center'>
                 <h2>Enter a search location below:</h2> 
