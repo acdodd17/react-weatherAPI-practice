@@ -4,8 +4,8 @@ import Homepage from './Homepage';
 
 function App() {
   return (
-    <div className="App">
-      <main>
+    <div className="app">
+      <main className='container'>
         <Homepage />
       </main>
     </div>

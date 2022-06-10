@@ -3,11 +3,11 @@ import CitySearch from './components/CitySearch';
 
 function Homepage() {
     return (
-        <div className='container'>
-            <header>
+        <div className='homepage'>
+            <header className='app-header text-center'>
                 <h1>Open Source Weather Forecast</h1>
             </header>
-            <section>
+            <section className='city-search text-center'>
                 <h2>Enter a search location below:</h2> 
                 <CitySearch />
             </section>
